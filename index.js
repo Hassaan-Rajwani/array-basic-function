@@ -25,7 +25,7 @@ alert(filter)
 }
 
 function pro4(){
-    var string = "There is the a string is called the.";
+    var string = "This is the a string is called the.".toLowerCase()
     var result = (string.split("the").length -1);
     alert("'the' is using in this sentence" + " " + result + " times")
 }
